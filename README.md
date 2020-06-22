@@ -63,7 +63,6 @@ enable is at voltage 0, portA and portB are at voltage 5
 
 ### plot
 enable and portB are at voltage 5, portA is at voltage 0
-
 # steps to install NI Multism on windows:
 1) Download NI Multisim 14.1 from https://softfamous.com/ni-multisim/download/
 2) Click on `Download from ni.com -> GET STUDENT DOWNLOAD  ` 
