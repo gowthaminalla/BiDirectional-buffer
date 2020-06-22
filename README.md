@@ -52,6 +52,10 @@ enable and portB are at voltage 0, portA is at voltage 5
 ## when data flows from portB to portA with enable 0
 
 ### circuit
+
+![image](https://user-images.githubusercontent.com/66250226/85296536-2de5a780-b4bf-11ea-82ab-b82a4ba84281.png)
+
+
 ### plot
 enable is at voltage 0, portA and portB are at voltage 5
 
