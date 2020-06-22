@@ -31,7 +31,7 @@ This project has files needed to design and implement GPIO
 8) Click on simulation
 9) A ngspice terminal opens up for execution, along with ngspice python plot.
 
-#plotting graphs
+# plotting graphs
 1) The first case is when data flows from portA to portB this happens when enable is 1 (high) when enable is 0 (low) data doesnot flow from portA to portB and then the output voltage is 0V
 
 ## when data flows from portA to portB with enable 1
