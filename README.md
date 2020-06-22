@@ -37,32 +37,34 @@ This project has files needed to design and implement GPIO
 ## when data flows from portA to portB with enable 1
 
 ### circuit
+![image](https://user-images.githubusercontent.com/66250226/85308146-7eb0cc80-b4ce-11ea-8b1e-e5f19b81d5eb.png)
 
 ### plot 
 all the enable, portA portB are at voltage 5
+![image](https://user-images.githubusercontent.com/66250226/85308232-99834100-b4ce-11ea-914c-59ef49c0a3b9.png)
 
 ## when data flows from portA to portB with enable 0 
 
 ### plot
 enable and portB are at voltage 0, portA is at voltage 5
-
+![image](https://user-images.githubusercontent.com/66250226/85308687-21694b00-b4cf-11ea-9ff3-0e2f91d8f8f1.png)
 
 2) The second case is when data flows from portB to portA this happens when enable is 0 (low) when enable is 1 (high) data doesnot flow from portB to portA in this case output voltage is 0v
 
 ## when data flows from portB to portA with enable 0
 
 ### circuit
-
-![image](https://user-images.githubusercontent.com/66250226/85296536-2de5a780-b4bf-11ea-82ab-b82a4ba84281.png)
-
+![image](https://user-images.githubusercontent.com/66250226/85303242-de57a980-b4c7-11ea-9b36-ad2a09a84898.png)
 
 ### plot
 enable is at voltage 0, portA and portB are at voltage 5
+![image](https://user-images.githubusercontent.com/66250226/85302990-86b93e00-b4c7-11ea-8ab9-e98c2258ec9c.png)
 
 ## when data flows from portB to portA with enable 1
 
 ### plot
 enable and portB are at voltage 5, portA is at voltage 0
+![image](https://user-images.githubusercontent.com/66250226/85307299-5d031580-b4cd-11ea-9293-532d65e4bf41.png)
 # steps to install NI Multism on windows:
 1) Download NI Multisim 14.1 from https://softfamous.com/ni-multisim/download/
 2) Click on `Download from ni.com -> GET STUDENT DOWNLOAD  ` 
@@ -84,12 +86,15 @@ enable and portB are at voltage 5, portA is at voltage 0
 6) Similarly when enable is 0 GPIO gets into output mode and data only flows from portB to portA
 
 ## circuit diagram
+![image](https://user-images.githubusercontent.com/66250226/85302155-66d54a80-b4c6-11ea-9f89-423901299eb5.png)
 
 7) To get the output graphs goto ```simulate->analyses and simulation->transient->output``` and select v(portA) and v(portB)
 8) now click on ```run``` to get the graphs
 9) The first graph is when input is given at portB which is high when enable is 0 and low when enable is 1
+![image](https://user-images.githubusercontent.com/66250226/85302431-c59ac400-b4c6-11ea-96ed-414774e8e97c.png)
 
 10) The second one is when input is given at portA which is low when enable is 0 and high when enable is 1
+![image](https://user-images.githubusercontent.com/66250226/85311181-a6099880-b4d2-11ea-8e46-36124eec7b17.png)
 
 # Exporting spice netlist
 Transfer -> export SPICEnetlist -> select destination on your pc -> save 
@@ -100,3 +105,4 @@ It is saved with a .cir file extension
 2) Kunal Gosh Director, Vsd Corp Pvt.Ltd, kunalpgosh@gmail.com
 3) Phillip Guhring, Software architect at Libresilicon Association pg@futureware.at
 4) Dr.Gaurav Trivedi Co-principal investigator, EICT academy, and associative proffessor, EEE depatement, IIT Guwahati, trivedi@iitg.ac.in
+
