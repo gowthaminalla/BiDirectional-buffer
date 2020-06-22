@@ -37,11 +37,11 @@ This project has files needed to design and implement GPIO
 ## when data flows from portA to portB with enable 1
 
 ### circuit
-![image](https://user-images.githubusercontent.com/66250226/85308146-7eb0cc80-b4ce-11ea-8b1e-e5f19b81d5eb.png)
+![image](https://user-images.githubusercontent.com/66250226/85308232-99834100-b4ce-11ea-914c-59ef49c0a3b9.png)
 
 ### plot 
 all the enable, portA portB are at voltage 5
-![image](https://user-images.githubusercontent.com/66250226/85308232-99834100-b4ce-11ea-914c-59ef49c0a3b9.png)
+![image](https://user-images.githubusercontent.com/66250226/85308146-7eb0cc80-b4ce-11ea-8b1e-e5f19b81d5eb.png)
 
 ## when data flows from portA to portB with enable 0 
 
