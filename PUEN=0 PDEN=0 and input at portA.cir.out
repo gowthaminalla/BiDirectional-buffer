@@ -1,0 +1,30 @@
+* c:\users\gowthami\esim-workspace\xyz\xyz.cir
+
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 net-_m1-pad1_ porta vss vss CMOSN W=100u L=100u M=1
+m5 portb net-_m1-pad1_ vss vss CMOSN W=100u L=100u M=1
+m8 net-_m3-pad2_ portb vss vss CMOSN W=100u L=100u M=1
+m4 porta net-_m3-pad2_ vss vss CMOSN W=100u L=100u M=1
+m2 net-_m1-pad1_ porta net-_m2-pad3_ net-_m2-pad3_ CMOSP W=100u L=100u M=1
+m6 portb net-_m1-pad1_ net-_m2-pad3_ net-_m2-pad3_ CMOSP W=100u L=100u M=1
+m3 porta net-_m3-pad2_ net-_m12-pad3_ net-_m12-pad3_ CMOSP W=100u L=100u M=1
+m7 net-_m3-pad2_ portb net-_m12-pad3_ net-_m12-pad3_ CMOSP W=100u L=100u M=1
+v1 porta gnd  dc 5V
+r3  vss net-_m12-pad2_ 5k
+m12 net-_m12-pad1_ net-_m12-pad2_ net-_m12-pad3_ net-_m12-pad3_ CMOSN W=100u L=100u M=1
+r4  vss net-_m12-pad3_ 10k
+r2  vss net-_m9-pad2_ 5k
+m9 net-_m2-pad3_ net-_m9-pad2_ vss vss CMOSN W=4u L=180n M=1
+r1  net-_m2-pad3_ net-_r1-pad2_ 10k
+v3 net-_r1-pad2_ gnd  dc 5V
+v2 net-_m12-pad1_ gnd  dc 5V
+.tran 1e-00 5e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
