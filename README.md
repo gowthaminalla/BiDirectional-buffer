@@ -1,3 +1,4 @@
+
 # bidirectional-buffer with non-inverting CMOS input
 This project has files needed to design and implement GPIO
 
@@ -31,6 +32,44 @@ This project has files needed to design and implement GPIO
 8) Click on simulation
 9) A ngspice terminal opens up for execution, along with ngspice python plot.
 
+# circuit with specifications
+
+PUEN is pullup enable and PDEN is pulldown enable 
+there are three blocks input bidirectional(PAD) and output
+in the input block there are all input pins the bidirectional block decides the direction of the flow of data and the output block contains all output pins
+pull up and pull-down resistors are used to ensure GPIO which is always in a valid state.
+Usually, the GPIO is arranged on a microcontroller as I/O
+The main function of pull-up and pull-down resistors is that the pull up resistor pulls the signal to high state unless it is driven low; 
+and, a pull-down resistor pulls the signal to low state unless it is driven high.
+
+PUEN on (1) closed switch voltage at pin=0
+PUEN off(0)open switch voltage at pin=1
+
+PDEN on (1) closed switch voltage at pin=1
+PDEN off(0) open switch voltage at pin=0
+
+1) The first case is when both PDEN and PUEN are in open state that is logic 0 and input is given at portA
+
+## circuit diagram
+
+![image](https://user-images.githubusercontent.com/66250226/85390104-f54cd900-b565-11ea-9da4-edf9ab786f6f.png)
+
+## graph
+enable=1, portA,portB are at voltage 5
+
+![image](https://user-images.githubusercontent.com/66250226/85389942-bd459600-b565-11ea-89cb-dd5f123fb452.png)
+
+2) The second case is when both PUEN and PDEN are in closed state that is logic 1 and input is given at portB
+
+## circuit diagram
+![image](https://user-images.githubusercontent.com/66250226/85390774-eadf0f00-b566-11ea-8332-363d37b34cae.png)
+
+## graph
+enable=0, portB and portA are at voltage 5
+
+![image](https://user-images.githubusercontent.com/66250226/85390566-9dfb3880-b566-11ea-90d6-d17466b8f8e2.png)
+
+# without specifications
 # plotting graphs
 1) The first case is when data flows from portA to portB this happens when enable is 1 (high) when enable is 0 (low) data doesnot flow from portA to portB and then the output voltage is 0V
 
