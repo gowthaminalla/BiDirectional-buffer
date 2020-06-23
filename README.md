@@ -32,6 +32,40 @@ This project has files needed to design and implement GPIO
 8) Click on simulation
 9) A ngspice terminal opens up for execution, along with ngspice python plot.
 
+# plotting graphs
+1) The first case is when data flows from portA to portB this happens when enable is 1 (high) when enable is 0 (low) data doesnot flow from portA to portB and then the output voltage is 0V
+
+## when data flows from portA to portB with enable 1
+
+### circuit
+![image](https://user-images.githubusercontent.com/66250226/85308232-99834100-b4ce-11ea-914c-59ef49c0a3b9.png)
+
+### plot 
+all the enable, portA portB are at voltage 5
+![image](https://user-images.githubusercontent.com/66250226/85308146-7eb0cc80-b4ce-11ea-8b1e-e5f19b81d5eb.png)
+
+## when data flows from portA to portB with enable 0 
+
+### plot
+enable and portB are at voltage 0, portA is at voltage 5
+![image](https://user-images.githubusercontent.com/66250226/85308687-21694b00-b4cf-11ea-9ff3-0e2f91d8f8f1.png)
+
+2) The second case is when data flows from portB to portA this happens when enable is 0 (low) when enable is 1 (high) data doesnot flow from portB to portA in this case output voltage is 0v
+
+## when data flows from portB to portA with enable 0
+
+### circuit
+![image](https://user-images.githubusercontent.com/66250226/85303242-de57a980-b4c7-11ea-9b36-ad2a09a84898.png)
+
+### plot
+enable is at voltage 0, portA and portB are at voltage 5
+![image](https://user-images.githubusercontent.com/66250226/85302990-86b93e00-b4c7-11ea-8ab9-e98c2258ec9c.png)
+
+## when data flows from portB to portA with enable 1
+
+### plot
+enable and portB are at voltage 5, portA is at voltage 0
+![image](https://user-images.githubusercontent.com/66250226/85307299-5d031580-b4cd-11ea-9293-532d65e4bf41.png)
 # circuit with specifications
 
 PUEN is pullup enable and PDEN is pulldown enable 
@@ -69,41 +103,6 @@ enable=0, portB and portA are at voltage 5
 
 ![image](https://user-images.githubusercontent.com/66250226/85390566-9dfb3880-b566-11ea-90d6-d17466b8f8e2.png)
 
-# without specifications
-# plotting graphs
-1) The first case is when data flows from portA to portB this happens when enable is 1 (high) when enable is 0 (low) data doesnot flow from portA to portB and then the output voltage is 0V
-
-## when data flows from portA to portB with enable 1
-
-### circuit
-![image](https://user-images.githubusercontent.com/66250226/85308232-99834100-b4ce-11ea-914c-59ef49c0a3b9.png)
-
-### plot 
-all the enable, portA portB are at voltage 5
-![image](https://user-images.githubusercontent.com/66250226/85308146-7eb0cc80-b4ce-11ea-8b1e-e5f19b81d5eb.png)
-
-## when data flows from portA to portB with enable 0 
-
-### plot
-enable and portB are at voltage 0, portA is at voltage 5
-![image](https://user-images.githubusercontent.com/66250226/85308687-21694b00-b4cf-11ea-9ff3-0e2f91d8f8f1.png)
-
-2) The second case is when data flows from portB to portA this happens when enable is 0 (low) when enable is 1 (high) data doesnot flow from portB to portA in this case output voltage is 0v
-
-## when data flows from portB to portA with enable 0
-
-### circuit
-![image](https://user-images.githubusercontent.com/66250226/85303242-de57a980-b4c7-11ea-9b36-ad2a09a84898.png)
-
-### plot
-enable is at voltage 0, portA and portB are at voltage 5
-![image](https://user-images.githubusercontent.com/66250226/85302990-86b93e00-b4c7-11ea-8ab9-e98c2258ec9c.png)
-
-## when data flows from portB to portA with enable 1
-
-### plot
-enable and portB are at voltage 5, portA is at voltage 0
-![image](https://user-images.githubusercontent.com/66250226/85307299-5d031580-b4cd-11ea-9293-532d65e4bf41.png)
 # steps to install NI Multism on windows:
 1) Download NI Multisim 14.1 from https://softfamous.com/ni-multisim/download/
 2) Click on `Download from ni.com -> GET STUDENT DOWNLOAD  ` 
