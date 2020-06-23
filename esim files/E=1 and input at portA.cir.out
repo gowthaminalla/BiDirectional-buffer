@@ -1,0 +1,22 @@
+* c:\users\gowthami\esim-workspace\gpio\gpio.cir
+
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 net-_m1-pad1_ porta net-_m1-pad3_ net-_m1-pad3_ CMOSN W=4u L=180n M=1
+m5 portb net-_m1-pad1_ net-_m5-pad3_ net-_m5-pad3_ CMOSN W=4u L=180n M=1
+m8 net-_m3-pad2_ portb net-_m8-pad3_ net-_m8-pad3_ CMOSN W=4u L=180n M=1
+m4 porta net-_m3-pad2_ net-_m4-pad3_ net-_m4-pad3_ CMOSN W=4u L=180n M=1
+m2 net-_m1-pad1_ porta porta porta CMOSP W=10u L=180n M=1
+m6 portb net-_m1-pad1_ porta porta CMOSP W=10u L=180n M=1
+m3 porta net-_m3-pad2_ gnd gnd CMOSP W=10u L=180n M=1
+m7 net-_m3-pad2_ portb gnd gnd CMOSP W=10u L=180n M=1
+v1 porta gnd  dc 5V
+.tran 1e-00 5e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
