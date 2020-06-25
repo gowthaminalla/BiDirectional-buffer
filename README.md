@@ -8,6 +8,10 @@ This project has files needed to design and implement GPIO
 3) The output and input buffers are formed by combining two CMOS inverters 
 4) Both the buffers are connected in a bidirectional fashion which allows the data to flow either of the direction
 
+# BLOCK DIAGRAM
+![image](https://user-images.githubusercontent.com/66250226/85789018-80d38f00-b74b-11ea-9124-9c9f1f7b236f.png)
+
+
 # NGSPICE
 NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit
 simulator. It is the result of combining existing SPICE features with some extra analyses, modeling
