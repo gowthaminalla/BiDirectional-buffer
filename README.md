@@ -8,6 +8,37 @@ This project has files needed to design and implement GPIO
 3) The output and input buffers are formed by combining two CMOS inverters 
 4) Both the buffers are connected in a bidirectional fashion which allows the data to flow either of the direction
 
+# NGSPICE
+NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit
+simulator. It is the result of combining existing SPICE features with some extra analyses, modeling
+methods and device simulation features.
+
+# setup
+
+1) NGSPICE zip file should be downloaded.
+2 )Once downloaded extract the files in a folder of your convenience.
+3) The netlist files should be saved inside the same folder, so choose your location accordingly.
+
+# Viewing Waveforms
+1) After done with the extraction of the zip file, open the folder where you can see a folder named Spice64.
+2) Open the Spice64 folder followed by another folder named bin.
+3) Create a new text document and paste the contents of netlist file from the repositary into the text file.
+4) Save the text document with the extension .cir in the same location.
+5) Open the ngspice applicaion in the bin folder and type the name of the .cir file saved in the previous
+step along with the extension.
+6) Press ENTER and respective waveforms appear.
+
+# LTspice
+## Setup
+Following steps will help you download and install the application in your PC .
+1) Download the setup file from Analog Devices webpage. 
+2) Click the Download for windows which will will automatically download the setup file into your PC. 
+3) Now follow basic installation steps and install the software.
+
+# Viewing Waveforms
+To view the waveforms just click the Simulate tab on the top and select Run
+option which opens a waveform window.
+
 # steps to install esim on windows
 1) Open the site https://esim.fossee.in/downloads
 2) Download the installable file with a .exe file extension for Windows 
