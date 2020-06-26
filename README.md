@@ -12,11 +12,11 @@ This project has files needed to design and implement GPIO
 ![image](https://user-images.githubusercontent.com/66250226/85789018-80d38f00-b74b-11ea-9124-9c9f1f7b236f.png)
 
 # Ltspice circuit diagram
-
-![image](https://user-images.githubusercontent.com/66250226/85841199-5c170000-b7bb-11ea-82cc-ca9ffd90118a.png)
+![image](https://user-images.githubusercontent.com/66250226/85862580-94303a00-b7df-11ea-86e5-acac3a3685ee.png)
 
 # PRE-LAYOUT characterstics
-![image](https://user-images.githubusercontent.com/66250226/85841446-c4fe7800-b7bb-11ea-8621-e25a75216a0e.png)
+![image](https://user-images.githubusercontent.com/66250226/85862320-3bf93800-b7df-11ea-966a-8eb8fbccfb5b.png)
+
 The truth table can be implemented using tabular method (quinemccluskey) 
 ![image](https://user-images.githubusercontent.com/66250226/85859608-11a57b80-b7db-11ea-8471-128080c8e41b.png)
 where A=A, B=EN, C=PDEN, D=PI, E=PUEN, F=PAD
