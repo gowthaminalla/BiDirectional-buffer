@@ -1,0 +1,25 @@
+* C:\Users\Gowthami\Desktop\ltspice\portAtoB.asc
+V1 EN 0 PULSE(0 3.3 1m 1m 1m 0.5 1 5)
+M3 N002 Y N001 N001 CMOSP l=180n w=900n m=1
+M4 N004 A EN EN CMOSP l=180n w=900n m=1
+M5 Y N004 EN EN CMOSP l=180n w=900n m=1
+M6 A N002 0 0 CMOSN l=180n w=360n
+M7 N002 Y 0 0 CMOSN l=180n w=360n
+M8 N004 A 0 0 CMOSN l=180n w=360n
+M9 Y N004 0 0 CMOSN l=180n w=360n
+M10 A N002 N001 N001 CMOSP l=180n w=900n m=1
+M1 EN N001 N003 N003 CMOSP l=180n w=900n m=1
+M2 EN N001 0 0 CMOSN l=180n w=360n
+V2 N003 0 1.8
+V4 A 0 PULSE(0 3.3 1m 1m 1m 0.5 1 5)
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+.tran 1 8s 0s 0.5s
+*control
+.control
+run
+plot V(EN) 
+plot V(Y)
+plot V(A)
+.endc
+.end

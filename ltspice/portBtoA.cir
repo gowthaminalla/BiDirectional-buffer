@@ -1,0 +1,26 @@
+* C:\Users\Gowthami\Desktop\ltspice\portBtoA.asc
+V1 EN 0 PULSE(0 3.3 1m 1m 1m 0.5 1 5)
+M1 N003 Y N001 N001 CMOSP l=180n w=900n m=1
+M2 N006 A EN EN CMOSP l=180n w=900n m=1
+M3 Y N006 EN EN CMOSP l=180n w=900n m=1
+M4 A N003 0 0 CMOSN l=180n w=360n
+M5 N003 Y 0 0 CMOSN l=180n w=360n
+M6 N006 A 0 0 CMOSN l=180n w=360n
+M7 Y N006 0 0 CMOSN l=180n w=360n
+M8 A N003 N002 N002 CMOSP l=180n w=900n m=1
+M9 EN N005 N004 N004 CMOSP l=180n w=900n m=1
+M10 EN N005 0 0 CMOSN l=180n w=360n
+V2 N004 0 1.8
+V4 Y 0 PULSE(0 3.3 1m 1m 1m 0.5 1 5)
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+.tran 1 8s 0s 0.5s
+.tran 1 8s 0s 0.5s
+*control
+.control
+run
+plot V(EN) 
+plot V(Y)
+plot V(A)
+.endc
+.end
