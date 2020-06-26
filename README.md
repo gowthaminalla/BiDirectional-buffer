@@ -11,6 +11,12 @@ This project has files needed to design and implement GPIO
 # BLOCK DIAGRAM
 ![image](https://user-images.githubusercontent.com/66250226/85789018-80d38f00-b74b-11ea-9124-9c9f1f7b236f.png)
 
+# Ltspice circuit diagram
+
+![image](https://user-images.githubusercontent.com/66250226/85841199-5c170000-b7bb-11ea-82cc-ca9ffd90118a.png)
+
+# PRE-LAYOUT characterstics
+![image](https://user-images.githubusercontent.com/66250226/85841446-c4fe7800-b7bb-11ea-8621-e25a75216a0e.png)
 
 # NGSPICE
 NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit
