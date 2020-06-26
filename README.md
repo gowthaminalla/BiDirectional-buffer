@@ -18,6 +18,16 @@ This project has files needed to design and implement GPIO
 # PRE-LAYOUT characterstics
 ![image](https://user-images.githubusercontent.com/66250226/85841446-c4fe7800-b7bb-11ea-8621-e25a75216a0e.png)
 
+# when data flows from portAtoB
+![image](https://user-images.githubusercontent.com/66250226/85854969-0cdcc980-b7d3-11ea-92fd-f2956fc79a06.png)
+
+![image](https://user-images.githubusercontent.com/66250226/85855037-2e3db580-b7d3-11ea-93dc-4248b3a69d91.png)
+
+# when data flows from portBtoA
+![image](https://user-images.githubusercontent.com/66250226/85855136-63e29e80-b7d3-11ea-8485-7078dd071a51.png)
+
+![image](https://user-images.githubusercontent.com/66250226/85855209-85438a80-b7d3-11ea-987c-61988fbe2362.png)
+
 # NGSPICE
 NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit
 simulator. It is the result of combining existing SPICE features with some extra analyses, modeling
