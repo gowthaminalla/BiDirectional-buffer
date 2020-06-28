@@ -17,9 +17,6 @@ This project has files needed to design and implement GPIO
 # PRE-LAYOUT characterstics
 ![image](https://user-images.githubusercontent.com/66250226/85862320-3bf93800-b7df-11ea-966a-8eb8fbccfb5b.png)
 
-The truth table can be implemented using tabular method (quinemccluskey) 
-![image](https://user-images.githubusercontent.com/66250226/85859608-11a57b80-b7db-11ea-8471-128080c8e41b.png)
-where A=A, B=EN, C=PDEN, D=PI, E=PUEN, F=PAD
 # when data flows from portAtoB
 ![image](https://user-images.githubusercontent.com/66250226/85854969-0cdcc980-b7d3-11ea-92fd-f2956fc79a06.png)
 
