@@ -45,9 +45,12 @@ This project has files needed to design and implement GPIO
 
 # NGspice plots
 ## when enable E=1
+
 ![image](https://user-images.githubusercontent.com/66250226/85954515-a3f17f00-b995-11ea-8f32-50f9fa8f35ef.png)
 
+
 ![image](https://user-images.githubusercontent.com/66250226/85954528-bcfa3000-b995-11ea-8530-755f971a60ec.png)
+
 
 
 ## when enable E=0
