@@ -11,21 +11,37 @@ This project has files needed to design and implement GPIO
 # BLOCK DIAGRAM
 ![image](https://user-images.githubusercontent.com/66250226/85789018-80d38f00-b74b-11ea-9124-9c9f1f7b236f.png)
 
+# NAND gate
+![image](https://user-images.githubusercontent.com/66250226/85954088-a56d7800-b992-11ea-9a1f-1ee260940785.png)
+## NAND gate representation
+![image](https://user-images.githubusercontent.com/66250226/85954118-d5b51680-b992-11ea-943b-18ef27ba2548.png)
+
+# Inverter
+![image](https://user-images.githubusercontent.com/66250226/85954152-0e54f000-b993-11ea-85da-200bbd3e70de.png)
+## Inverter representation
+![image](https://user-images.githubusercontent.com/66250226/85954186-45c39c80-b993-11ea-9af3-09fdc8c1d9a1.png)
+
+# Tristate buffer
+![image](https://user-images.githubusercontent.com/66250226/85954207-6ee42d00-b993-11ea-8c84-c22af0d94bbe.png)
+## Tristate buffer representation
+![image](https://user-images.githubusercontent.com/66250226/85954226-963afa00-b993-11ea-86c8-39151cdd7cf1.png)
+
 # Ltspice circuit diagram
-![image](https://user-images.githubusercontent.com/66250226/85862580-94303a00-b7df-11ea-86e5-acac3a3685ee.png)
+## with enable E=1
+![image](https://user-images.githubusercontent.com/66250226/85953888-46f3ca00-b991-11ea-92dd-3346e886a278.png)
+
+## with enable E=0
+![image](https://user-images.githubusercontent.com/66250226/85953920-74d90e80-b991-11ea-88b7-08c1f1084821.png)
 
 # PRE-LAYOUT characterstics
-![image](https://user-images.githubusercontent.com/66250226/85862320-3bf93800-b7df-11ea-966a-8eb8fbccfb5b.png)
+ ## specifications:
+ ![image](https://user-images.githubusercontent.com/66250226/85953985-de591d00-b991-11ea-9d62-3d8c232a24f3.png)
 
-# when data flows from portAtoB
-![image](https://user-images.githubusercontent.com/66250226/85854969-0cdcc980-b7d3-11ea-92fd-f2956fc79a06.png)
+## plot when enable E=1
+![image](https://user-images.githubusercontent.com/66250226/85954010-15c7c980-b992-11ea-92ec-1a8efdf384a7.png)
 
-![image](https://user-images.githubusercontent.com/66250226/85855037-2e3db580-b7d3-11ea-93dc-4248b3a69d91.png)
-
-# when data flows from portBtoA
-![image](https://user-images.githubusercontent.com/66250226/85855136-63e29e80-b7d3-11ea-8485-7078dd071a51.png)
-
-![image](https://user-images.githubusercontent.com/66250226/85855209-85438a80-b7d3-11ea-987c-61988fbe2362.png)
+## plot when enable E=0
+![image](https://user-images.githubusercontent.com/66250226/85954042-4f98d000-b992-11ea-8a0f-b09d2bb6019f.png)
 
 # NGSPICE
 NGSPICE can be used to view the input output waveforms. NGSPICE is an open source mixed-signal circuit
