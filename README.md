@@ -57,6 +57,11 @@ This project has files needed to design and implement GPIO
 
 ![image](https://user-images.githubusercontent.com/66250226/85954528-bcfa3000-b995-11ea-8530-755f971a60ec.png)
 
+### with simulation time 100ns
+
+![image](https://user-images.githubusercontent.com/66250226/86113172-897aeb00-bae6-11ea-86ca-85be89f2b7e8.png)
+
+![image](https://user-images.githubusercontent.com/66250226/86113325-bdeea700-bae6-11ea-949c-2c5085305382.png)
 
 
 ## when enable E=0
