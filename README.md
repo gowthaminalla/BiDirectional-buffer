@@ -40,8 +40,14 @@ This project has files needed to design and implement GPIO
 ## plot when enable E=1
 ![image](https://user-images.githubusercontent.com/66250226/85954010-15c7c980-b992-11ea-92ec-1a8efdf384a7.png)
 
+### with simulation time 100ns
+![image](https://user-images.githubusercontent.com/66250226/86105573-2173d700-badd-11ea-9333-d18549f99ddb.png)
+
 ## plot when enable E=0
 ![image](https://user-images.githubusercontent.com/66250226/85954042-4f98d000-b992-11ea-8a0f-b09d2bb6019f.png)
+
+### with simulation time 100ns
+![image](https://user-images.githubusercontent.com/66250226/86105900-8af3e580-badd-11ea-8c10-877043276fe8.png)
 
 # NGspice plots
 ## when enable E=1
@@ -55,6 +61,10 @@ This project has files needed to design and implement GPIO
 
 ## when enable E=0
 ![image](https://user-images.githubusercontent.com/66250226/85954566-05b1e900-b996-11ea-8616-134127deeccb.png)
+
+### with simulation time 100ns
+![image](https://user-images.githubusercontent.com/66250226/86108763-35213c80-bae1-11ea-9902-8811904260ba.png)
+
 
 # LTspice
 ## Setup
