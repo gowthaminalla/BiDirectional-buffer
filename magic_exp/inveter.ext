@@ -1,0 +1,19 @@
+timestamp 1593866861
+version 8.2
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 10
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+node "gnd" 65 147.543 -6 -8 ndif 77 60 0 0 0 0 0 0 0 0 0 0 0 0 242 76 0 0 0 0 0 0 0 0 0 0
+node "vout" 30 55.485 5 -8 ndif 65 36 77 36 0 0 0 0 0 0 0 0 0 0 181 70 0 0 0 0 0 0 0 0 0 0
+node "vin" 120 240.092 -11 -1 pc 0 0 0 0 0 0 0 0 0 0 142 100 0 0 44 30 0 0 0 0 0 0 0 0 0 0
+node "w_n14_4#" 1375 837.442 -14 4 nw 0 0 0 0 925 124 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "vdd" 0 0 -12 34 poc 0 0 92 64 0 0 0 0 0 0 0 0 0 0 545 102 0 0 0 0 0 0 0 0 0 0
+cap "w_n14_4#" "vout" 41.163
+cap "w_n14_4#" "vin" 112.911
+cap "gnd" "vout" 20.619
+device mosfet nfet 2 -8 3 -7 3 5 "vdd" "vin" 6 0 "gnd" 5 0 "vout" 5 0
+device mosfet pfet 2 10 3 11 3 7 "w_n14_4#" "vin" 6 0 "vdd" 7 0 "vout" 7 0
+subcap "gnd" -23.775
+subcap "w_n14_4#" -153.442
+subcap "vdd" -25.302
