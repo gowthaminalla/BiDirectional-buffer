@@ -13,13 +13,24 @@ This project has files needed to design and implement GPIO
 
 # NAND gate
 ![image](https://user-images.githubusercontent.com/66250226/85954088-a56d7800-b992-11ea-9a1f-1ee260940785.png)
+
 ## NAND gate representation
 ![image](https://user-images.githubusercontent.com/66250226/85954118-d5b51680-b992-11ea-943b-18ef27ba2548.png)
 
+## NAND gate layout
+![image](https://user-images.githubusercontent.com/66250226/86513330-f95edd80-be26-11ea-8755-cca8dca2d115.png)
+
+
 # Inverter
 ![image](https://user-images.githubusercontent.com/66250226/85954152-0e54f000-b993-11ea-85da-200bbd3e70de.png)
+
 ## Inverter representation
 ![image](https://user-images.githubusercontent.com/66250226/85954186-45c39c80-b993-11ea-9af3-09fdc8c1d9a1.png)
+
+
+## inveter layout
+![image](https://user-images.githubusercontent.com/66250226/86513302-bef54080-be26-11ea-873f-94951005e1ad.png)
+
 
 # Tristate buffer
 ![image](https://user-images.githubusercontent.com/66250226/85954207-6ee42d00-b993-11ea-8c84-c22af0d94bbe.png)
