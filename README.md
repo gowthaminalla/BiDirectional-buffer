@@ -34,8 +34,12 @@ This project has files needed to design and implement GPIO
 
 # Tristate buffer
 ![image](https://user-images.githubusercontent.com/66250226/85954207-6ee42d00-b993-11ea-8c84-c22af0d94bbe.png)
+
 ## Tristate buffer representation
 ![image](https://user-images.githubusercontent.com/66250226/85954226-963afa00-b993-11ea-86c8-39151cdd7cf1.png)
+
+## tristate buffer layout
+![image](https://user-images.githubusercontent.com/66250226/86592007-3f937880-bfb0-11ea-84ac-70c3dad82537.png)
 
 # Ltspice circuit diagram
 ## with enable E=1
