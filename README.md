@@ -85,6 +85,12 @@ This project has files needed to design and implement GPIO
 ### with simulation time 100ns
 ![image](https://user-images.githubusercontent.com/66250226/86108763-35213c80-bae1-11ea-9902-8811904260ba.png)
 
+# threshold
+
+![image](https://user-images.githubusercontent.com/66250226/86770339-2d780f80-c06e-11ea-94e3-1449f7324e2b.png)
+
+![image](https://user-images.githubusercontent.com/66250226/86769928-872c0a00-c06d-11ea-831a-7d2939495300.png)
+
 
 # LTspice
 ## Setup
